@@ -1,0 +1,7 @@
+Question,Choice1,Choice2,Choice3,Choice4,Answer
+Who developed the Python language?,Zim Den,Guido van Rossum,NieneStom,Wick van Rossum,2
+In which year was the Python language developed?,1995,1972,1981,1989,4
+How is a code block indicated in Python?,Brackets,Identation,Key,None,2
+Which one of the following is the correct extension of the Python file?,.py,.python,.p,None,1
+What is the method inside the class in python language?,Object,Function,Attribute,Argument,2
+Which character is used in Python to make a single line comment?,/,//,#,!,3
