@@ -188,7 +188,7 @@ def assistant(query):
             speak("i can't see it")
 
     elif "calculate" in query:
-        app_id = "R5A2KT-WVQWGGT7UH"
+        app_id = "XXX"
         client = wolframalpha.Client(app_id)
         ind = query.lower().split().index("calculate")
         text = query.split()[ind + 1:]
@@ -198,7 +198,7 @@ def assistant(query):
         speak("The answer is " + answer)
 
     elif "what is" in query or "who is" in query:
-        app_id = "R5A2KT-WVQWGGT7UH"
+        app_id = "XXX"
         client = wolframalpha.Client(app_id)
         ind = query.lower().split().index("is")
         text = query.split()[ind + 1:]
@@ -229,7 +229,7 @@ def assistant(query):
         speak("Searching " + str(search) + " on google")
 
     elif "weather" in query:
-        key = "c0cfa55aad7e024afd2a058cc65f907f"
+        key = "XXXX"
         weather_url = "http://api.openweathermap.org/data/2.5/weather?"
         ind = query.split().index("in")
         location = query.split()[ind + 1:]
